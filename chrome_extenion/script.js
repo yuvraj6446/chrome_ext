@@ -30,7 +30,7 @@ async function  fetchInfo()
    const relData=data.filter(match=>match?.id==="40d33ba3-ac37-4d8b-a45c-d738167a8a39");
    console.log(relData);
 
-  wrapper.innerHTML= relData.map((match=>
+  wrapper.innerHTML= data.map((match=>
 
 
 
