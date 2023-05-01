@@ -1,0 +1,191 @@
+
+
+
+body{
+    margin: 0;
+    /* padding: 10px; */
+    
+}
+#wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+#wrapper
+{
+    /* border-radius: 5px; */
+    /* position: relative; */
+    user-select: none;
+    /* border: solid; */
+    height: 300px;
+    overflow: scroll;
+    width: 400px;
+    padding: 10p;
+   
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+
+   align-items: center;
+
+
+
+}
+
+#main
+{
+    width: 100%;
+    position: relative;
+    height: 300px;
+
+
+}
+
+.bg2
+{
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    height: 300px;
+    opacity: 70%;
+    background-color: black;
+    
+   
+    left: 0;
+    z-index: -1; 
+}
+.bg
+{
+    position: absolute;
+    top: 40px;
+    width: 400px;
+    height: 300px;
+    
+   
+    left: 0;
+    z-index: -1;
+
+}
+.bg img{
+    width: 400px;
+    height: 270px;
+    z-index: -6;
+    /* opacity: 1%; */
+}
+#names:hover
+{
+ 
+    transform:scale(1.03); 
+    transition:ease-in-out;
+    transition-duration: 100ms;
+
+}
+#names
+{
+    justify-content: center;
+    gap:20%;
+    display: flex;
+    background-color: silver;
+    /* border: solid; */
+    width: 100%;
+
+}
+
+#name1, #name2
+{
+    display: flex;
+   
+    gap:20px;
+    font-size: 15px;
+   
+    /* border: solid; */
+    align-items: center;
+    
+}
+#name1 img{
+    width: 30px;
+    height: 30px;
+    /* border-radius: 50%; */
+}
+
+#name2 img{
+    width: 30px;
+    height: 30px;
+}
+
+#scores
+{
+    display: flex;
+    gap: 10px;
+    color: aliceblue;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+#status:hover{
+    display: flex;
+    /* background-color: darkorange; */
+    /* height:30px; */
+    padding: 10px;
+    justify-content: center;
+    transform:scale(1.07); 
+    transition:ease-in-out;
+    transition-duration: 100ms;
+}
+#status
+{
+    color: antiquewhite;
+    display: flex;
+    margin: auto;
+    border-radius: 5px;
+    width: 50%;
+    background-color: rgb(4, 4, 49);
+    opacity: 80%;
+    /* height:30px; */
+    padding: 10px;
+    justify-content: center;
+}
+#vs
+{
+    position: relative;
+    top: 3px;
+}
+
+#scores1,#scores2{
+    display: flex;
+    gap: 10px;
+    /* border: solid; */
+    padding: 5px;
+    justify-content: center;
+
+}
+
+#scores1:hover,#scores2:hover{
+    outline: solid;
+    border-radius: 3px;
+    
+    /* border: 2px; */
+}
+
+
+#ver {
+    width: 1px;
+    height: 80px;
+    background-color: rgb(231, 221, 221);
+}
+
+
+/* #hor2
+{
+
+    width: 100%;
+    height: 2px;
+    background-color: antiquewhite;
+} */
+
+#venue{
+    color: antiquewhite;
+    padding: 10px;
+    
+}

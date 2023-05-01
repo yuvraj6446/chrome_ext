@@ -1,0 +1,12 @@
+{
+    "name":"my chrome extension1",
+    "version":"1.0.0",
+    "description":"cricket scores",
+    "manifest_version":3,
+    "author":"yuvraj singh",
+    "action":
+    {
+        "default_popup":"index.html",
+        "default_title":"my chrome extension1"
+    }
+}
