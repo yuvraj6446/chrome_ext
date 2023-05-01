@@ -4,6 +4,7 @@ The Cricket Score Chrome Extension is a tool that allows cricket fans to easily 
 ![Screenshot (30)](https://user-images.githubusercontent.com/113282729/235527214-a2c243c4-e607-46fc-82f0-9ef8feb3ecec.png)
 
 __Features__
+   
    Live cricket scores: The extension fetches live cricket scores and displays them in real-time.
    Hovering scale effect: When you hover over the score, it scales up for better visibility.
    Hovering outline effect: When you hover over the score, it displays an outline for better readability.
